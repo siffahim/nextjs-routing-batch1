@@ -1,9 +1,13 @@
+import Footer from "@/components/shared/Footer";
+import Navbar from "@/components/shared/Navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-   <div>
-      <h2>Home Page</h2>
-   </div>
+    <div>
+      <Navbar />
+      <div className="min-h-screen"></div>
+      <Footer />
+    </div>
   );
 }
